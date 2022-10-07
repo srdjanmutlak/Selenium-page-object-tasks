@@ -31,3 +31,5 @@ c. Prezime se krece od PrezimeStudenta1 do PrezimeStudenta3
 6. Napraviti predmet (Fizikus, sa dodatim prethodna 3 studenta i profesora)
 7. Obrisati prvog studenta (RA2) i potvrditi da ga nema vise u tabeli
 8. Izlogovati se
+
+(Ovaj test je pod nazivom "Parcijalni")
