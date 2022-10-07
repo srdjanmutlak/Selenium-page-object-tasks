@@ -17,7 +17,7 @@ Vaše rešenje mora imati upotrebu bar 2 CSS selektora i 2 Xpath selektora koji 
 Zadaci:
 1. Opisati sve stanice pomoću jednog od pristupa za opis stranice (pagefactory ili Page
 Object Model - pages).
-2. Realizovati test scenario #1.
+2. Realizovati test scenario #1 i #2.
 
 Scenario #1: 
 1. Ulogovati se kao korisnik (user,user) i proveriti da ste se uspesno ulogovali
@@ -33,3 +33,29 @@ c. Prezime se krece od PrezimeStudenta1 do PrezimeStudenta3
 8. Izlogovati se
 
 (Ovaj test je pod nazivom "Parcijalni")
+
+Scenario #2: 
+1. Registrovati se kao novi korisnik 
+a. Username: vaše ime (sve malim slovima)
+b. E-mail: selenium@tester.com
+c. New password: tester
+d. New password confirmation: tester
+I potvrditi uspešnost registracije 
+2. Ulogovati se kao novokreirani korisnik i potvrditi nemogućnost prijave na sistem 
+3. Ulogovati se kao administrator (admin, admin) i potvrditi uspešnost logovanja 
+4. Aktivirati novokreiranog korisnika Administration > User management > klik na
+Deactivated dugme u redu tabele. Potvrditi uspešnost akcije. 
+5. Izlogovati se i ponovo ulogovati kao novokreirani korisnik, potvrditi mogućnost prijave
+6. Dodati novi ispitni rok
+a. Naziv: parcijalni modul 2
+b. Pocetak: 2021-11-03
+c. Kraj: 2021-11-03
+I potvrditi njegovo postojanje u tabeli
+7. Izlogovati se i ponovo se ulogovati kao administrator (admin, admin)
+8. Obrisati novokreiranog korisnika i potvrditi da više ne postoji u tabeli
+
+(Ovaj test je pod nazivom "FirstTest")
+
+*******************
+
+Postoji još nekoliko testova u folderu "tests" za koje ne postoji postavka, ali "notes" pokazuju šta je vežbano
