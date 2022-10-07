@@ -58,4 +58,4 @@ I potvrditi njegovo postojanje u tabeli
 
 *******************
 
-Postoji još nekoliko testova u folderu "tests" za koje ne postoji postavka, ali "notes" pokazuju šta je vežbano
+Postoji još nekoliko testova u folderu "tests" za koje ne postoji postavka, ali "notes" pokazuju šta je vežbano.
