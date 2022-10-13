@@ -20,7 +20,7 @@ import pages.termin18.StudentsPage;
  * Resenje prvog zadatka sa Termina 18 Resenje nadogradjuje prvi zadatak sa
  * termina 17 tako sto ukljucuje PageObject sablon
  * 
- * @author minamedic
+ *
  *
  */
 public class Zadatak1 {
